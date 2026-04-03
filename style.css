@@ -6,14 +6,14 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f0;
-    color: #2c3e2c;
+    background-color: #0a0a0a;
+    color: #d0d8e0;
     line-height: 1.6;
 }
 
 /* HEADER */
 header {
-    background: linear-gradient(135deg, #2d5a27, #4a8c3f, #2d5a27);
+    background: linear-gradient(135deg, #0a0f2e, #1a2a6c, #0a0f2e);
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -40,7 +40,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #1e3d1a;
+    background-color: #0d1a3a;
     padding: 0;
     position: sticky;
     top: 0;
@@ -51,7 +51,7 @@ nav {
 .tab-btn {
     background: none;
     border: none;
-    color: #c5d8c3;
+    color: #a0b0c8;
     padding: 18px 28px;
     font-size: 1rem;
     font-weight: 600;
@@ -67,9 +67,9 @@ nav {
 }
 
 .tab-btn.active {
-    color: #7ddf64;
-    border-bottom: 3px solid #7ddf64;
-    background-color: rgba(125, 223, 100, 0.1);
+    color: #5b9bd5;
+    border-bottom: 3px solid #5b9bd5;
+    background-color: rgba(91, 155, 213, 0.1);
 }
 
 /* MAIN CONTENT */
@@ -96,10 +96,10 @@ main {
 
 .tab-content h2 {
     font-size: 2rem;
-    color: #2d5a27;
+    color: #5b9bd5;
     margin-bottom: 8px;
     text-align: center;
-    border-bottom: 3px solid #7ddf64;
+    border-bottom: 3px solid #5b9bd5;
     display: inline-block;
     padding-bottom: 8px;
     width: 100%;
@@ -107,7 +107,7 @@ main {
 
 .section-subtitle {
     text-align: center;
-    color: #5a7a56;
+    color: #8899aa;
     font-style: italic;
     margin-bottom: 10px;
     font-size: 1.05rem;
@@ -136,27 +136,27 @@ main {
 }
 
 .card {
-    background: white;
+    background: #121a2f;
     border-radius: 12px;
     padding: 28px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    border-left: 5px solid #4a8c3f;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid #1a2a6c;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
 .card h3 {
-    color: #2d5a27;
+    color: #5b9bd5;
     font-size: 1.25rem;
     margin-bottom: 10px;
 }
 
 .card p {
-    color: #3d5a3a;
+    color: #b0bec5;
     font-size: 1.05rem;
     line-height: 1.7;
 }
@@ -177,7 +177,7 @@ main {
     top: 0;
     bottom: 0;
     width: 4px;
-    background: linear-gradient(to bottom, #4a8c3f, #7ddf64);
+    background: linear-gradient(to bottom, #1a2a6c, #5b9bd5);
     border-radius: 2px;
 }
 
@@ -192,17 +192,17 @@ main {
     top: 28px;
     width: 16px;
     height: 16px;
-    background-color: #4a8c3f;
+    background-color: #1a2a6c;
     border-radius: 50%;
-    border: 3px solid #f0f4f0;
-    box-shadow: 0 0 0 3px #4a8c3f;
+    border: 3px solid #0a0a0a;
+    box-shadow: 0 0 0 3px #1a2a6c;
 }
 
 .timeline-year {
     font-size: 1.1rem;
     font-weight: 700;
-    color: #7ddf64;
-    background-color: #1e3d1a;
+    color: #5b9bd5;
+    background-color: #0d1a3a;
     display: inline-block;
     padding: 4px 16px;
     border-radius: 20px;
@@ -212,18 +212,18 @@ main {
 
 /* SOURCES */
 .sources-list {
-    background: white;
+    background: #121a2f;
     border-radius: 12px;
     padding: 35px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .sources-list h3 {
-    color: #2d5a27;
+    color: #5b9bd5;
     font-size: 1.4rem;
     margin-top: 25px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #e0e8df;
+    border-bottom: 2px solid #1a2a4a;
     padding-bottom: 8px;
 }
 
@@ -234,26 +234,26 @@ main {
 .source-entry {
     margin-bottom: 20px;
     padding: 18px;
-    background-color: #f7faf7;
+    background-color: #0e1525;
     border-radius: 8px;
-    border-left: 4px solid #4a8c3f;
+    border-left: 4px solid #1a2a6c;
 }
 
 .source-entry p {
     font-size: 1rem;
     line-height: 1.8;
-    color: #3d5a3a;
+    color: #b0bec5;
     padding-left: 36px;
     text-indent: -36px;
 }
 
 .source-entry a {
-    color: #2d5a27;
+    color: #5b9bd5;
     word-break: break-all;
 }
 
 .source-entry a:hover {
-    color: #7ddf64;
+    color: #7ab3e0;
 }
 
 .source-entry em {
@@ -262,8 +262,8 @@ main {
 
 /* FOOTER */
 footer {
-    background-color: #1e3d1a;
-    color: #c5d8c3;
+    background-color: #0d1a3a;
+    color: #a0b0c8;
     text-align: center;
     padding: 25px;
     margin-top: 60px;
